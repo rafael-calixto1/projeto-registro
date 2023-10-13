@@ -478,7 +478,102 @@ void si3() {
     return; // sair da funcao
 }
 
+void si4() {
+    system("cls");
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << "\t\tSISTEMAS DE INFORMACAO   " << std::endl;
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << "\t\tQUARTO SEMESTRE           " << std::endl;
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << std::left << std::setw(40) << "DISCIPLINA" << "| CARGA HORARIA" << std::endl;
+    std::cout << std::left << std::setw(40) << "METODOLOGIA DE PESQUISA(EAD)" << "| 80" << std::endl;
+    std::cout << std::left << std::setw(40) << "EXTENSIONISTA IV" << "| 40" << std::endl;
+    std::cout << std::left << std::setw(40) << "SEGURANCA DA INFORMACAO" << "| 80" << std::endl;
+    std::cout << std::left << std::setw(40) << "TOPICOS AVANCADOS EM SI I" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "OPTATIVA IV" << "| 60" << std::endl;
+    std::cout << '\n' << '\n';
+    std::cout << "Digite qualquer tecla para voltar: " << std::endl;
+	std::cin.ignore(); // esoerar para o usuario digitar
+    return; // sair da funcao
+}
 
+void si5() {
+    system("cls");
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << "\t\tSISTEMAS DE INFORMACAO   " << std::endl;
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << "\t\tQUINTO SEMESTRE           " << std::endl;
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << std::left << std::setw(40) << "DISCIPLINA" << "| CARGA HORARIA" << std::endl;
+    std::cout << std::left << std::setw(40) << "OPTATIVA V" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "QUALIDADE DE SOFTWARE" << "| 40" << std::endl;
+    std::cout << std::left << std::setw(40) << "ENGENHARIA DE REQUISITOS" << "| 40" << std::endl;
+    std::cout << std::left << std::setw(40) << "EXTENSIONISTA V" << "| 40" << std::endl;
+    std::cout << std::left << std::setw(40) << "TOPICOS AVANCADOS EM SI II" << "| 60" << std::endl;
+    std::cout << '\n' << '\n';
+    std::cout << "Digite qualquer tecla para voltar: " << std::endl;
+	std::cin.ignore(); // esoerar para o usuario digitar
+    return; // sair da funcao
+}
+
+void si6() {
+    system("cls");
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << "\t\tSISTEMAS DE INFORMACAO   " << std::endl;
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << "\t\tSEXTO SEMESTRE           " << std::endl;
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << std::left << std::setw(40) << "DISCIPLINA" << "| CARGA HORARIA" << std::endl;
+    std::cout << std::left << std::setw(40) << "EMPREENDORISMO (EAD)" << "| 80" << std::endl;
+    std::cout << std::left << std::setw(40) << "COMPUTACAO EM NUVEM (EAD)" << "| 80" << std::endl;
+    std::cout << std::left << std::setw(40) << "LINGUAGEM DE PROGRAMACAO" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "F. INTELIGENCIA ARTIFICIAL" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "ESTAGIO" << "| 100" << std::endl;
+    std::cout << std::left << std::setw(40) << "OPTATIVA VI" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "EXTENSIONISTA VI" << "| 50" << std::endl;
+    std::cout << '\n' << '\n';
+    std::cout << "Digite qualquer tecla para voltar: " << std::endl;
+	std::cin.ignore(); // esoerar para o usuario digitar
+    return; // sair da funcao
+}
+
+void si7() {
+    system("cls");
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << "\t\tSISTEMAS DE INFORMACAO   " << std::endl;
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << "\t\tSETIMO SEMESTRE           " << std::endl;
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << std::left << std::setw(40) << "DISCIPLINA" << "| CARGA HORARIA" << std::endl;
+    std::cout << std::left << std::setw(40) << "BIG DATA (EAD)" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "EXTENSIONISTA VII" << "| 50" << std::endl;
+    std::cout << std::left << std::setw(40) << "TCC" << "| 80" << std::endl;
+    std::cout << std::left << std::setw(40) << "ETICA E CIDADANIA" << "| 40" << std::endl;
+    std::cout << std::left << std::setw(40) << "BANCO DE DADOS AVANCADO" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "CIENCIA DE DADOS E ML" << "| 60" << std::endl;
+    std::cout << '\n' << '\n';
+    std::cout << "Digite qualquer tecla para voltar: " << std::endl;
+	std::cin.ignore(); // esoerar para o usuario digitar
+    return; // sair da funcao
+}
+
+void si8() {
+    system("cls");
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << "\t\tSISTEMAS DE INFORMACAO   " << std::endl;
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << "\t\tOITAVO SEMESTRE           " << std::endl;
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << std::left << std::setw(40) << "DISCIPLINA" << "| CARGA HORARIA" << std::endl;
+    std::cout << std::left << std::setw(40) << "MODELAGEM DE NEGOCIOS" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "LINGUA PORTUGUESA" << "| 40" << std::endl;
+    std::cout << std::left << std::setw(40) << "TCC II" << "| 80" << std::endl;
+    std::cout << std::left << std::setw(40) << "ORGANIZACAO DE COMPUTADORES" << "| 60" << std::endl;
+    std::cout << '\n' << '\n';
+    std::cout << "Digite qualquer tecla para voltar: " << std::endl;
+	std::cin.ignore(); // esoerar para o usuario digitar
+    return; // sair da funcao
+}
 /// ############## SELECIONAAR SEMESTRE #######################
 
 
@@ -618,6 +713,11 @@ void selecionarSemestreSI(){
     std::cout << std::left << std::setw(20) << "1o SEMESTRE" << "| 1" << std::endl;
     std::cout << std::left << std::setw(20) << "2o SEMESTRE" << "| 2" << std::endl;
     std::cout << std::left << std::setw(20) << "3o SEMESTRE" << "| 3" << std::endl;
+    std::cout << std::left << std::setw(20) << "4o SEMESTRE" << "| 4" << std::endl;
+    std::cout << std::left << std::setw(20) << "5o SEMESTRE" << "| 5" << std::endl;
+    std::cout << std::left << std::setw(20) << "6o SEMESTRE" << "| 6" << std::endl;
+    std::cout << std::left << std::setw(20) << "7o SEMESTRE" << "| 7" << std::endl;
+    std::cout << std::left << std::setw(20) << "8o SEMESTRE" << "| 8" << std::endl;
     std::cout << std::left << std::setw(20) << "==S A I R==" << "| 0" << std::endl;
     std::cout << '\n' << '\n';
     std::cout << "digite um dos codigos para acessar as materias: " << std::endl;
@@ -638,6 +738,31 @@ void selecionarSemestreSI(){
 		case '3':
 			system("cls");
 			si3();
+			system("pause");
+			break;
+		case '4':
+			system("cls");
+			si4();
+			system("pause");
+			break;
+		case '5':
+			system("cls");
+			si5();
+			system("pause");
+			break;
+		case '6':
+			system("cls");
+			si6();
+			system("pause");
+			break;
+		case '7':
+			system("cls");
+			si7();
+			system("pause");
+			break;
+		case '8':
+			system("cls");
+			si8();
 			system("pause");
 			break;
 		case '0':
