@@ -498,7 +498,7 @@ void selecionarSemestreADS(){
 	char semestre;
 	do{
     std::cout << "-----------------------------------------------------------" << std::endl;
-    std::cout << "\t\tBEM VINDO A AREA GRADE DE CC     " << std::endl;
+    std::cout << "\t\tBEM VINDO A AREA GRADE DE ADS     " << std::endl;
     std::cout << "-----------------------------------------------------------" << std::endl;
     std::cout << "\t\tSEMESTRES DO CURSO       " << std::endl;
     std::cout << "-----------------------------------------------------------" << std::endl;
@@ -585,10 +585,12 @@ void menuInicial(){
 			        std::cout << "Por favor, confirme seu curso: ";
 			        cin >> curso;
 			        
-			        if (curso == "CC" || curso == "cc" || curso == "ADS" || curso == "ads") {
+			        if (curso == "CC" || curso == "cc" ) {
 			            selecionarSemestreCC();
 			            break; // Exit the loop if a valid course is entered
-			        } else {
+			        } else if(curso == "ADS" || curso == "ads"){
+			        	selecionarSemestreADS();
+					}{
 			            std::cout << "Por favor, digite uma opcao valida." << std::endl;
 			        }
 			    } while (true);
