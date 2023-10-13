@@ -411,9 +411,72 @@ void ads4() {
 
 
 //############     SISTEMAS DA INFORMACAO #########################
+void si1() {
+    system("cls");
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << "\t\tSISTEMAS DE INFORMACAO   " << std::endl;
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << "\t\tPRIMEIRO SEMESTRE           " << std::endl;
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << std::left << std::setw(40) << "DISCIPLINA" << "| CARGA HORARIA" << std::endl;
+    std::cout << std::left << std::setw(40) << "TEORIA GERAL DE ADM" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "OPTATIVA I" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "LOGICA COMPUTACIONAL" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "LIBRAS" << "| 70" << std::endl;
+    std::cout << std::left << std::setw(40) << "SOCIEDADE E TERRITORIOS (EAD)" << "| 80" << std::endl;
+    std::cout << std::left << std::setw(40) << "ENGENHARIA DE SOFTWARE" << "| 40" << std::endl;
+    std::cout << std::left << std::setw(40) << "PROGRAMACAO WEB" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "TECNICAS DE DESENVOLVIMENTO" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "MODELAGEM DE DADOS (EAD)" << "| 80" << std::endl;
+    std::cout << std::left << std::setw(40) << "MATEMATICA APLICADA (EAD)" << "| 60" << std::endl;
+    std::cout << '\n' << '\n';
+    std::cout << "Digite qualquer tecla para voltar: " << std::endl;
+	std::cin.ignore(); // esoerar para o usuario digitar
+    return; // sair da funcao
+}
 
+void si2() {
+    system("cls");
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << "\t\tSISTEMAS DE INFORMACAO   " << std::endl;
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << "\t\tSEGUNDO SEMESTRE           " << std::endl;
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << std::left << std::setw(40) << "DISCIPLINA" << "| CARGA HORARIA" << std::endl;
+    std::cout << std::left << std::setw(40) << "OPTATIVA II" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "GESTAO DE TI (EAD)" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "ESTRUTURAS DE DADOS" << "| 40" << std::endl;
+    std::cout << std::left << std::setw(40) << "EXTENSIONISTA II" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "BANCO DE DADOS" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "POO" << "| 40" << std::endl;
+    std::cout << std::left << std::setw(40) << "GESTAO DE NEGOCIOS (EAD)" << "| 80" << std::endl;
+    std::cout << std::left << std::setw(40) << "PROGRACAO WEB" << "| 60" << std::endl;
+    std::cout << '\n' << '\n';
+    std::cout << "Digite qualquer tecla para voltar: " << std::endl;
+	std::cin.ignore(); // esoerar para o usuario digitar
+    return; // sair da funcao
+}
 
-
+void si3() {
+    system("cls");
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << "\t\tSISTEMAS DE INFORMACAO   " << std::endl;
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << "\t\tTERCEIRO SEMESTRE           " << std::endl;
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << std::left << std::setw(40) << "DISCIPLINA" << "| CARGA HORARIA" << std::endl;
+    std::cout << std::left << std::setw(40) << "ANALISE DE SISTEMAS" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "INTERFACE HUMANO-COMPUTADOR" << "| 40" << std::endl;
+    std::cout << std::left << std::setw(40) << "SISTEMAS GERENCIAIS" << "| 80" << std::endl;
+    std::cout << std::left << std::setw(40) << "GESTAO DE SISTEMAS" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "REDES DE COMPUTADORES" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "OPTATIVA III" << "| 60" << std::endl;
+    std::cout << std::left << std::setw(40) << "EXTENSIONISTA III" << "| 40" << std::endl;
+    std::cout << '\n' << '\n';
+    std::cout << "Digite qualquer tecla para voltar: " << std::endl;
+	std::cin.ignore(); // esoerar para o usuario digitar
+    return; // sair da funcao
+}
 
 
 /// ############## SELECIONAAR SEMESTRE #######################
@@ -541,7 +604,49 @@ void selecionarSemestreADS(){
     menuInicial();
 }
 
+void selecionarSemestreSI(){
+	system("cls");
+	char semestre;
+	do{
+	system("cls");
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << "\t\tBEM VINDO A AREA GRADE DE SI     " << std::endl;
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << "\t\tSEMESTRES DO CURSO       " << std::endl;
+    std::cout << "-----------------------------------------------------------" << std::endl;
+    std::cout << std::left << std::setw(20) << "SEMESTRE" << "| CODIGO" << std::endl;
+    std::cout << std::left << std::setw(20) << "1o SEMESTRE" << "| 1" << std::endl;
+    std::cout << std::left << std::setw(20) << "2o SEMESTRE" << "| 2" << std::endl;
+    std::cout << std::left << std::setw(20) << "3o SEMESTRE" << "| 3" << std::endl;
+    std::cout << std::left << std::setw(20) << "==S A I R==" << "| 0" << std::endl;
+    std::cout << '\n' << '\n';
+    std::cout << "digite um dos codigos para acessar as materias: " << std::endl;
+    std::cin >> semestre;
 
+	
+	switch (semestre){
+		case '1':
+			system("cls");
+			si1();
+			system("pause");
+			break;
+		case '2':
+			system("cls");
+			si2();
+			system("pause");
+			break;
+		case '3':
+			system("cls");
+			si3();
+			system("pause");
+			break;
+		case '0':
+		    return;
+		default:
+			 std::cout << "Por favor, digite um valor valido" << std::endl;
+	}
+  }while (semestre != '0');
+}
 
 
 //####################  MENU PRINCIPAL   ###########################  
@@ -590,7 +695,10 @@ void menuInicial(){
 			            break; // Exit the loop if a valid course is entered
 			        } else if(curso == "ADS" || curso == "ads"){
 			        	selecionarSemestreADS();
-					}{
+					} else if(curso == "SI" || curso == "si"){
+						selecionarSemestreSI();
+					}
+					{
 			            std::cout << "Por favor, digite uma opcao valida." << std::endl;
 			        }
 			    } while (true);
