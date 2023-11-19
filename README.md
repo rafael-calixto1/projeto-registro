@@ -51,7 +51,3 @@ Contribuições para melhorar o sistema ou adicionar novos recursos são bem-vin
 ## Autores
 
 Este projeto foi inicialmente criado por Hideki, Milene Paiva e Rafael Calixto.
-
-## Licença
-
-Este projeto está licenciado sob [Nome da Licença] - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
